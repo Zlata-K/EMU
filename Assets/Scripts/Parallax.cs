@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
-    private Transform camera;
-    private Vector3 lastCamPos;
+    public Transform camera;
+    public Vector3 lastCamPos;
     private float multiplier = 0.7f; 
     
     // Start is called before the first frame update
@@ -13,6 +13,11 @@ public class Parallax : MonoBehaviour
     {
         camera = GameObject.FindWithTag("MainCamera").transform;
         lastCamPos = camera.position;
+
+        if (gameObject.name == "Sky")
+        {
+            transform.position = new Vector3(camera.position.x, camera.position.y, 396.356f);
+        }
     }
 
     // Update is called once per frame
