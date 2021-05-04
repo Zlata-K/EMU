@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
-    public Transform camera;
-    public Vector3 lastCamPos;
+    private Transform camera;
+    private Vector3 lastCamPos;
     private float multiplier = 0.7f; 
     
     // Start is called before the first frame update
