@@ -1,5 +1,5 @@
 # E.M.U: E.M.U Mobility Unit
-Fight emu dictatorship and save Australia!
+Fight Emu dictatorship and save Australia!
 
 ## Team 16: No, Hugo. We're not naming our team that. - Contributors
  - Édouard Gagné
